@@ -130,5 +130,3 @@ LEFT JOIN PAYMENT P ON (R.RENTAL_ID=P.RENTAL_ID) GROUP BY C.NAME ORDER BY SUM(P.
 -- Assuming this is a key metric that I want to track on a daily basis, I would create a dashboard that would pop up each day when I arrived at the office so I would know what was selling well
 -- 8c. You find that you no longer need the view `top_five_genres`. Write a query to delete it.
 DROP TABLE TOP_FIVE_GENRES;
-
--- If I used a 
